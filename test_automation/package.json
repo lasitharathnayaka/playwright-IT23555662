@@ -1,0 +1,16 @@
+{
+  "name": "it3040-assignment1-option1",
+  "version": "1.0.0",
+  "description": "IT3040 ITPM Assignment 1 - Singlish to Sinhala transliteration testing using Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "keywords": ["playwright", "singlish", "sinhala", "testing", "it3040"],
+  "author": "",
+  "license": "ISC"
+}
